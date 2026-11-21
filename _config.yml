@@ -1,0 +1,24 @@
+theme: jekyll-theme-cayman
+title: Horizon 每日速递
+description: AI 驱动的科技、工程与创作者资讯雷达（每 2 小时自动更新）
+baseurl: "/horizon-digest"
+url: "https://qiuxianxian.github.io"
+timezone: Asia/Shanghai
+
+markdown: kramdown
+future: true
+plugins:
+  - jekyll-feed
+feed:
+  path: feed.xml
+exclude:
+  - "README.md"
+  - "summaries"
+  - ".gitignore"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
