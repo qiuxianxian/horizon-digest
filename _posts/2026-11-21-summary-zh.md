@@ -3,7 +3,45 @@ layout: default
 title: "Horizon 每日速递 - 2026-11-21"
 date: 2026-11-21
 lang: zh
-updated: "11:00"
+updated: "17:00"
+---
+
+<h2 class="batch-heading">🕐 17:00 雷达更新</h2>
+
+> 从 2 条内容中筛选出 1 条重要资讯。
+
+---
+
+**科技新闻**
+1. [浙大在超导芯片「天目 2 号」上首次实现 QRAM 真机原型](#b1700-item-tech-news-1) ⭐️ 7.0/10
+
+---
+
+## 科技新闻
+
+<a id="b1700-item-tech-news-1"></a>
+### [浙大在超导芯片「天目 2 号」上首次实现 QRAM 真机原型](https://finance.sina.com.cn/stock/2026-11-21/doc-iniznhsk3530826.shtml) ⭐️ 7.0/10
+
+浙江大学团队在自主制备的超导量子芯片「天目 2 号」上，全球首次完成 QRAM（量子随机存储器）真机原型运行，成果发表于《自然·物理》。该原型可分别调取 4 位和 8 位数据，准确率分别为 80.9% 和 60.4%；经优化后线路深度较未优化方案降低 30% 以上，并首次验证该架构具备局部抗噪特性。团队表示下一步将推进 QRAM 的规模化研究。当前数据规模极小、准确率有限，整体仍属前沿研究阶段，距离工程部署尚有较大距离。
+
+telegram · zaihuapd · 11月21日 08:31
+
+**「QRAM 是什么」** 量子随机存储器（QRAM）是一种允许通过叠加态地址查询来相干检索量子或经典数据的存储框架，是 Grover 搜索、量子机器学习等量子算法高效加载数据集的关键模块。此前 QRAM 主要停留在理论设计和模拟阶段，缺乏在真实量子硬件上的验证。
+
+**「对量子计算硬件的意义」** QRAM 是 Grover 搜索、量子机器学习等量子算法的关键组件，此次真机验证表明超导平台具备实现 QRAM 的可行性，为后续规模化设计提供了实验依据。但 4 位/8 位的数据规模和不足 81% 的准确率意味着短期内不会对现有量子计算应用产生实际影响，相关算法开发者无需调整当前技术路线。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.emergentmind.com/topics/quantum-random-access-memories">Quantum Random - Access Memories</a></li>
+<li><a href="https://arxiv.org/pdf/2503.19172">Resource-state Quantum RAM for Fast and Error-Correctable Queries</a></li>
+
+</ul>
+</details>
+
+**标签**: `#量子计算`, `#QRAM`, `#超导量子芯片`, `#Nature Physics`, `#硬件原型`
+
+---
+
 ---
 
 <h2 class="batch-heading">🕐 11:00 雷达更新</h2>
