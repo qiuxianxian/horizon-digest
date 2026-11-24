@@ -3,7 +3,37 @@ layout: default
 title: "Horizon 每日速递 - 2026-11-24"
 date: 2026-11-24
 lang: zh
-updated: "17:00"
+updated: "19:00"
+---
+
+<h2 class="batch-heading">🕐 19:00 雷达更新</h2>
+
+> 从 4 条内容中筛选出 1 条重要资讯。
+
+---
+
+**科技博客**
+1. [无 SDR 的 2.4GHz 遥控器克隆：前导码是关键](#b1900-item-tech-blog-1) ⭐️ 5.0/10
+
+---
+
+## 科技博客
+
+<a id="b1900-item-tech-blog-1"></a>
+### [无 SDR 的 2.4GHz 遥控器克隆：前导码是关键](https://hackaday.com/2026/11/24/rf-remote-cloning-without-the-benefit-of-an-sdr/) ⭐️ 5.0/10
+
+rss · Hackaday · 11月24日 09:00
+
+**「背景」** 2.4GHz 频段远超廉价 RTL-SDR 的覆盖范围，Henrikbiscuit 需要将 Lindby Velua 吸顶灯接入 Home Assistant，却缺乏能监听该频段的软件定义无线电，只能另寻他法。
+
+**「方案」** 他用 nRF24L01+和 CC2500 配合 ESP32 完成克隆。首先将 nRF24L01+设为混杂模式捕获数据包，发现同步字为 B9 A1 99，随后配置 CC2500 匹配该同步字并重放捕获的包，灯偶尔会响应。他最初怀疑存在滚动码机制，因为仅约 30%的命令被接受，但分析数十个包后确认没有加密保护。问题最终定位到前导码（preamble）：它位于同步字之前，用于帮助接收端微调射频参数，虽然并非严格必需，但缺少它会导致接收极不可靠，偶尔成功纯属运气。补上前导码后所有命令均被接受，随后再写少量代码即接入 Home Assistant。作者指出，这一调试过程在有 SDR 提供全局频谱视图时会容易得多，但共享的调试思路比具体实现更有参考价值。
+
+**「启示」** 在没有 SDR 提供全局频谱视图的情况下，前导码这类「隐性」信号特征极易被忽略，却可能是可靠通信的决定性因素；这一经验对任何使用 2.4GHz 收发器进行逆向工程的人都有直接参考价值。
+
+**标签**: `#RF reverse engineering`, `#nRF24L01`, `#CC2500`, `#Home Assistant`, `#debugging story`
+
+---
+
 ---
 
 <h2 class="batch-heading">🕐 17:00 雷达更新</h2>
