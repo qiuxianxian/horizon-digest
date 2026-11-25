@@ -3,7 +3,37 @@ layout: default
 title: "Horizon 每日速递 - 2026-11-25"
 date: 2026-11-25
 lang: zh
-updated: "11:00"
+updated: "15:00"
+---
+
+<h2 class="batch-heading">🕐 15:00 雷达更新</h2>
+
+> 从 7 条内容中筛选出 1 条重要资讯。
+
+---
+
+**科技博客**
+1. [绕过 iOS Safari 60 FPS 限制让 Web 应用接近原生体验](#b1500-item-tech-blog-1) ⭐️ 7.0/10
+
+---
+
+## 科技博客
+
+<a id="b1500-item-tech-blog-1"></a>
+### [绕过 iOS Safari 60 FPS 限制让 Web 应用接近原生体验](https://rida.dev/blog/bypassing-ios-safari-60-fps-limit) ⭐️ 7.0/10
+
+hackernews · vinhnx · 11月25日 03:04 · [社区讨论](https://news.ycombinator.com/item?id=50637890)
+
+**「背景」** iOS Safari 对 JavaScript 执行存在 60 FPS 的帧率上限，这导致 Web 应用在交互流畅度上始终落后于原生应用，尤其对 Web 游戏和需要高频渲染的场景影响显著。作者 vinhnx 选择深入 WebKit 源码层面寻找突破这一限制的路径。
+
+**「方案」** 作者的核心方法并非简单的 API 调用或配置调整，而是直接阅读 WebKit 源码，从中发现可被利用的 UX 绕过路径，使 Web 应用突破 60 FPS 的 JavaScript 执行限制。社区评论证实这一源码级调查方法本身受到高度认可，有读者特别称赞其「通过 WebKit 源码寻找 UX 绕过方案」的思路。文章对 Web 游戏开发者具有直接实用价值，有评论者明确表示「对我的 Web 游戏非常有用」。不过，社区也指出了具体局限：在 iPad 上，合成器（compositor）在拖拽操作时会丢失光标位置追踪，而 60 FPS JavaScript 方案会将所有元素锁定，意味着该绕过方式在指针交互场景下仍有待完善。由于原文全文不可用，具体绕过机制的技术细节无法在此完整还原。
+
+**「启示」** 作者的核心论点是：通过源码级逆向分析，Web 开发者可以绕过平台施加的帧率限制，缩小 Web 与原生应用之间的体验差距；这一路径既展示了 WebKit 内部约束的可绕过性，也揭示了当前方案在指针交互等边缘场景中的不足。
+
+**标签**: `#iOS Safari`, `#WebKit internals`, `#web performance`, `#mobile web development`, `#frame rate optimization`
+
+---
+
 ---
 
 <h2 class="batch-heading">🕐 11:00 雷达更新</h2>
