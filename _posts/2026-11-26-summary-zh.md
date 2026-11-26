@@ -3,8 +3,48 @@ layout: default
 title: "Horizon 每日速递 - 2026-11-26"
 date: 2026-11-26
 lang: zh
-updated: "07:00"
+updated: "15:00"
 ---
+
+<h2 class="batch-heading">🕐 15:00 雷达更新</h2>
+
+> 从 6 条内容中筛选出 1 条重要资讯。
+
+---
+
+**科技新闻**
+1. [华为拟公布数据引脚密度翻倍的新型 HBM 芯片](#b1500-item-tech-news-1) ⭐️ 7.0/10
+
+---
+
+## 科技新闻
+
+<a id="b1500-item-tech-news-1"></a>
+### [华为拟公布数据引脚密度翻倍的新型 HBM 芯片](https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix) ⭐️ 7.0/10
+
+华为计划于 2027 年 2 月在旧金山的一场会议上发表研究论文，论文标题显示其新型高带宽内存（HBM）芯片的数据引脚密度为三星电子和 SK 海力士量产产品的两倍，理论上可大幅提升内存带宽。华为正推动 HBM 在中国本土投产，该部件目前受美国出口管制限制。需注意的是，目前信息仅来源于论文标题的预告，尚未确认量产能力或实际性能指标，从研究论文到商用产品之间存在显著差距。
+
+telegram · zaihuapd · 11月26日 05:30
+
+**「HBM 瓶颈与制裁背景」** 高带宽内存（HBM）是 AI 加速器芯片的关键配套组件，为计算核心提供高带宽数据通路。由于美国制裁限制，华为无法从三星、SK 海力士等外国供应商获取 HBM，这已成为其升腾（Ascend）AI 芯片产能扩张的主要瓶颈；2025 年 9 月的行业分析指出，若 HBM 供应问题得以解决，华为升腾芯片年产量有望从约 80.5 万颗提升至 117.5 万颗。
+
+**「影响」** 若该芯片最终实现量产，将直接挑战三星和 SK 海力士在 HBM 市场的垄断地位，并为受美国制裁限制的中国 AI 算力基础设施提供国产高带宽内存替代方案。但当前阶段仅处于论文预告，对现有供应链格局的实际影响尚无法评估。
+
+<details><summary>参考链接</summary>
+<ul>
+<li>Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck - SemiAnalysis</li>
+<li>Huawei challenges Nvidia with new AI chip technology - Techzine Global</li>
+
+</ul>
+</details>
+
+**标签**: `#HBM`, `#半导体`, `#AI硬件`, `#华为`, `#美国制裁`
+
+---
+
+---
+
+<h2 class="batch-heading">🕐 07:00 雷达更新</h2>
 
 > 从 26 条内容中筛选出 9 条重要资讯。
 
