@@ -3,7 +3,46 @@ layout: default
 title: "Horizon 每日速递 - 2026-11-26"
 date: 2026-11-26
 lang: zh
-updated: "15:00"
+updated: "17:00"
+---
+
+<h2 class="batch-heading">🕐 17:00 雷达更新</h2>
+
+> 从 6 条内容中筛选出 1 条重要资讯。
+
+---
+
+**科技新闻**
+1. [Neuralink 获 FDA 批准启动渐冻症脑机接口关键试验](#b1700-item-tech-news-1) ⭐️ 7.0/10
+
+---
+
+## 科技新闻
+
+<a id="b1700-item-tech-news-1"></a>
+### [Neuralink 获 FDA 批准启动渐冻症脑机接口关键试验](https://www.bloomberg.com/news/articles/2026-11-25/neuralink-gets-clearance-for-brain-implant-trial-in-als-patients?srnd=phx-technology) ⭐️ 7.0/10
+
+马斯克旗下 Neuralink 宣布获得美国 FDA 批准，将启动名为「LINK」的植入式脑机接口关键临床试验，面向渐冻症（ALS）患者招募，旨在将大脑信号直接转化为计算机控制指令。这是美国首个获批的此类关键临床试验。此前 Neuralink 已通过早期研究在全球为超过 30 名瘫痪患者植入设备，此次获批标志着其技术从安全验证阶段迈向商业化上市审批，试验数据将作为未来申请医疗器械上市许可的核心依据。需注意，此次获批为临床试验许可，并非产品上市批准。
+
+telegram · zaihuapd · 11月26日 07:15
+
+**「背景」** Neuralink 由马斯克于 2016 年创立，此前已通过早期研究阶段在全球为超过 30 名瘫痪患者植入设备，完成了安全性验证。此次获批的「LINK」关键临床试验（pivotal trial）是 FDA 医疗器械上市许可审批路径中的最终核心临床阶段，其数据将直接作为申请上市许可（PMA）的依据，也是美国首个获批的植入式脑机接口关键试验。
+
+**「对渐冻症患者与 BCI 行业的影响」** 对渐冻症患者而言，「LINK」试验若成功，将提供将大脑信号直接转化为计算机控制指令的植入式方案，为目前缺乏有效治疗手段的群体带来新的交互途径。对行业而言，作为美国首个获批的脑机接口关键临床试验，其数据将作为 Neuralink 未来申请医疗器械上市许可（PMA）的核心依据，同时为 Synchron、Blackrock Neurotech 等竞争者提供可参照的监管路径。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Neuralink">Neuralink - Wikipedia</a></li>
+<li><a href="https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study/">Neuralink Receives FDA Approval to Launch LINK Pivotal... | Neuralink</a></li>
+<li><a href="https://timewell.jp/en/columns/neuralink-precision-neuroscience-synchron-blackrock-neurotech">Brain - Computer Interfaces in 2026 : Neuralink, Synchron , and...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#脑机接口`, `#FDA审批`, `#Neuralink`, `#医疗器械`, `#神经技术`
+
+---
+
 ---
 
 <h2 class="batch-heading">🕐 15:00 雷达更新</h2>
