@@ -5,6 +5,7 @@
 
 ## 最近归档
 
+- **2026-11-28**：[网页版](https://qiuxianxian.github.io/horizon-digest/2026/11/28/summary-zh.html) · [Markdown](_posts/2026-11-28-summary-zh.md)
 - **2026-11-27**：[网页版](https://qiuxianxian.github.io/horizon-digest/2026/11/27/summary-zh.html) · [Markdown](_posts/2026-11-27-summary-zh.md)
 - **2026-11-26**：[网页版](https://qiuxianxian.github.io/horizon-digest/2026/11/26/summary-zh.html) · [Markdown](_posts/2026-11-26-summary-zh.md)
 - **2026-11-25**：[网页版](https://qiuxianxian.github.io/horizon-digest/2026/11/25/summary-zh.html) · [Markdown](_posts/2026-11-25-summary-zh.md)
