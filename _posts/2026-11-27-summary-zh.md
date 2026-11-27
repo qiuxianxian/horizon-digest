@@ -3,7 +3,37 @@ layout: default
 title: "Horizon 每日速递 - 2026-11-27"
 date: 2026-11-27
 lang: zh
-updated: "09:00"
+updated: "11:00"
+---
+
+<h2 class="batch-heading">🕐 11:00 雷达更新</h2>
+
+> 从 2 条内容中筛选出 1 条重要资讯。
+
+---
+
+**科技博客**
+1. [谁有权判定文本是否由 AI 生成](#b1100-item-tech-blog-1) ⭐️ 5.0/10
+
+---
+
+## 科技博客
+
+<a id="b1100-item-tech-blog-1"></a>
+### [谁有权判定文本是否由 AI 生成](https://seangoedecke.com/who-gets-to-decide-if-something-is-written-by-ai/) ⭐️ 5.0/10
+
+rss · Sean Goedecke · 11月27日 00:00
+
+**「背景」** 围绕 AI 生成内容的争议日益频繁——文学奖、出版合同、社交媒体帖子——而反 AI 群体对 Pangram 等检测工具的敌意令作者 Sean Goedecke 困惑：若反对 AI，为何不欢迎能揭露 AI 的工具？
+
+**「方案」** Goedecke 认为，反 AI 者对检测工具的抵触本质上是权力问题。Pangram 作为科技公司的产品，与反 AI 者不信任的科技巨头属于同一阵营，将「是否由 AI 写作」的裁决权交给它，等于把公共话语的守门权让渡给科技行业。更广泛地说，反 AI 者反对的是过去几十年从社区自治向工具化流程的转变，用 AI 工具来治理 AI 在他们看来近乎荒谬。但 Goedecke 指出，唯一的替代方案是社区自我审查，而这在认识论上更差：不使用 AI 的人缺乏识别 AI 文本的能力，社交媒体上大量误判即为证据。他主张，若真正关心将 AI 排除在人类文化领域之外，就应使用最强大的可用工具，即使它们本身也是 AI 工具；若不信任科技公司，则应推动开源方案或游说政府自建检测平台。
+
+**「启示」** 反 AI 者对检测工具的敌意源于对科技行业权力的不信任，但放弃工具化检测、退回社区自治只会让 AI 内容更多地渗透进人类文化空间。
+
+**标签**: `#AI governance`, `#AI detection`, `#power dynamics`, `#opinion/analysis`, `#technology policy`
+
+---
+
 ---
 
 <h2 class="batch-heading">🕐 09:00 雷达更新</h2>
