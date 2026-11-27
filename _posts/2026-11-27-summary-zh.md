@@ -3,7 +3,48 @@ layout: default
 title: "Horizon 每日速递 - 2026-11-27"
 date: 2026-11-27
 lang: zh
-updated: "17:00"
+updated: "21:00"
+---
+
+<h2 class="batch-heading">🕐 21:00 雷达更新</h2>
+
+> 从 5 条内容中筛选出 1 条重要资讯。
+
+---
+
+**科技新闻**
+1. [OpenSec 披露 Linux 内核 NFS 服务器预认证堆溢出漏洞 CVE-2026-99362](#b2100-item-tech-news-1) ⭐️ 7.0/10
+
+---
+
+## 科技新闻
+
+<a id="b2100-item-tech-news-1"></a>
+### [OpenSec 披露 Linux 内核 NFS 服务器预认证堆溢出漏洞 CVE-2026-99362](https://opensec.in/blog/nfs2root-cve-2026-99362) ⭐️ 7.0/10
+
+OpenSec 披露 Linux 内核 NFS 服务器 nfsd 存在预认证堆溢出漏洞 CVE-2026-99362，CVSS 评分 9.8，攻击者无需任何认证，仅通过向 tcp/2049 发送一条连接即可越界写入内核堆并获取 root shell。该漏洞自 2014 年 Linux 3.16 起存在，影响所有启用 NFSv4.1 或 4.2 的主机，波及文件服务器、NAS 及集群存储节点。修复已发布在 6.12.117、6.18.61、7.3.2 和 7.4-rc1 内核版本中，需升级内核并重启；无法立即升级的系统可通过防火墙限制 tcp/2049 访问作为临时缓解。CVE 于 2026 年 11 月 20 日公开。
+
+telegram · zaihuapd · 11月27日 12:57
+
+**「背景」** NFS（Network File System）是 Linux 系统中广泛使用的网络文件共享协议，nfsd 是其内核态服务端组件，默认监听 tcp/2049。CVE-2026-99362 的根因位于 NFSv4.1/4.2 的 SEQUENCE 操作处理路径：nfsd 4\_sequence\(\) 在接收 slot seqid 之前未将回复缓冲区收窄至会话缓存的回复上限，导致攻击者可通过一条 TCP 连接向内核堆对象越界写入 61 字节。该缺陷自 2014 年 Linux 3.16 引入 NFSv4.1 支持时即存在，Debian 安全追踪器与 Ubuntu 安全公告均已收录该 CVE。
+
+**「运维影响」** 所有运行 Linux 3.16 及以上版本并启用 NFSv4.1/4.2 的主机（包括文件服务器、NAS、构建集群及 Kubernetes 存储节点）均面临未授权远程 root 接管风险，且修复需升级内核并重启，无法热修复。无法立即重启的生产环境应通过防火墙限制 tcp/2049 入站访问作为临时缓解措施。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://opensec.in/blog/nfs2root-cve-2026-99362">NFS 2ROOT ( CVE - 2026 - 99362 ): pre - auth root in Linux nfsd | OpenSec</a></li>
+<li><a href="https://security-tracker.debian.org/tracker/CVE-2026-99362">CVE - 2026 - 99362</a></li>
+<li><a href="https://ubuntu.com/security/CVE-2026-99362">CVE - 2026 - 99362 | Ubuntu</a></li>
+<li><a href="https://opensec.in/blog/nfs2root-cve-2026-99362">NFS 2ROOT ( CVE - 2026 - 99362 ): pre-auth root in Linux nfsd | OpenSec</a></li>
+<li><a href="https://security-tracker.debian.org/tracker/CVE-2026-99362">CVE - 2026 - 99362</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Linux内核安全`, `#NFS漏洞`, `#CVE-2026-99362`, `#基础设施安全`, `#预认证RCE`
+
+---
+
 ---
 
 <h2 class="batch-heading">🕐 17:00 雷达更新</h2>
