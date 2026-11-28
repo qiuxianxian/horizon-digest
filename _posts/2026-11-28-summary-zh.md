@@ -3,7 +3,47 @@ layout: default
 title: "Horizon 每日速递 - 2026-11-28"
 date: 2026-11-28
 lang: zh
-updated: "09:00"
+updated: "11:00"
+---
+
+<h2 class="batch-heading">🕐 11:00 雷达更新</h2>
+
+> 从 3 条内容中筛选出 1 条重要资讯。
+
+---
+
+**科技新闻**
+1. [Google DeepCrossAttention：通过增强残差连接实现最高 3 倍推理加速](#b1100-item-tech-news-1) ⭐️ 7.0/10
+
+---
+
+## 科技新闻
+
+<a id="b1100-item-tech-news-1"></a>
+### [Google DeepCrossAttention：通过增强残差连接实现最高 3 倍推理加速](https://research.google/blog/supercharging-transformer-residual-connections/) ⭐️ 7.0/10
+
+Google Research 于 2025 年 2 月发表论文（arXiv:2502.06785），提出 DeepCrossAttention 技术，通过增强 Transformer 残差连接，在保持模型质量相当的前提下实现最高 3 倍推理加速。该技术属于深度注意力原语（depthwise attention primitives）研究路线的一部分，与 AttnRes 等工作相关。该论文目前仍为研究阶段成果，尚未作为产品能力发布；其 3 倍加速为论文自报数据，尚未经独立基准验证。
+
+hackernews · ComputedCamp995 · 11月27日 23:06 · [社区讨论](https://news.ycombinator.com/item?id=50672565)
+
+**「背景」** Transformer 模型中的残差连接（residual connection）是每层输出与输入直接相加的跳跃连接，用于缓解深层网络的梯度消失问题。DeepCrossAttention 在此基础上引入跨层注意力机制，使不同层之间能够直接交换信息，属于「深度方向注意力原语」（depthwise attention primitives）这一研究路线。该路线中较知名的工作包括 AttnRes，而近期循环层（looping layers）和动态层间路由（dynamic routing）的发展进一步提升了此类跨层信息传递的潜在收益。此外，社区中常见的推理加速技术如 MTP（Multi-Token Prediction）和 Dflash 已在近两年实现约 10 倍 token/秒的提升，DeepCrossAttention 被视为可与之叠加的进一步优化手段。
+
+**「对推理优化的实际意义」** DeepCrossAttention 作为 2025 年 2 月发表的架构改进（arXiv:2502.06785），为构建 Transformer 推理系统的开发者提供了一种可替代传统残差连接的方案，在保持相近模型质量的前提下将推理速度提升最多 3 倍。社区讨论中有人提出将其与 MTP、Dflash 等已有加速技术叠加使用以追求更高吞吐，但这一组合效果尚未经过独立验证，目前仍属于研究层面的增量优化而非已落地的工程方案。
+
+**「社区讨论」** 有评论者指出，MTP 与 Dflash 等技术在近两年已实现约 10 倍 token/秒加速，并询问叠加 DeepCrossAttention 后能否达到 30 倍。另一评论者补充了背景：该论文发表于 2025 年，在 ML 领域已属较早工作，并认为随着循环层（looping layers）和动态层间路由的发展，此类深度注意力原语可能获得更大收益。这些均为社区推测，非论文结论。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://research.google/blog/supercharging-transformer-residual-connections/">Supercharging transformer residual connections</a></li>
+<li><a href="https://arxiv.org/html/2502.06785">DeepCrossAttention : Supercharging Transformer Residual...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#transformer-architecture`, `#inference-optimization`, `#google-research`, `#attention-mechanisms`, `#deep-learning`
+
+---
+
 ---
 
 <h2 class="batch-heading">🕐 09:00 雷达更新</h2>
