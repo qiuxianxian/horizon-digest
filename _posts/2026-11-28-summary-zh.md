@@ -3,8 +3,40 @@ layout: default
 title: "Horizon 每日速递 - 2026-11-28"
 date: 2026-11-28
 lang: zh
-updated: "07:00"
+updated: "09:00"
 ---
+
+<h2 class="batch-heading">🕐 09:00 雷达更新</h2>
+
+> 从 3 条内容中筛选出 1 条重要资讯。
+
+---
+
+**科技博客**
+1. [ESP32 用 Noise 协议替代 TLS 将 RAM 占用减半](#b0900-item-tech-blog-1) ⭐️ 5.0/10
+
+---
+
+## 科技博客
+
+<a id="b0900-item-tech-blog-1"></a>
+### [ESP32 用 Noise 协议替代 TLS 将 RAM 占用减半](https://hackaday.com/2026/11/27/esp32-remote-access-done-light/) ⭐️ 5.0/10
+
+rss · Hackaday · 11月28日 00:00
+
+**「背景」** Pinscope 团队在 ESP32 上需要与单一服务器保持安全连接，但 TLS 占用 23.6 KB RAM，在芯片资源紧张时难以承受。
+
+**「方案」** 他们选用 Noise 协议的 NK 模式（Noise\_NK\_25519\_ChaChaPoly\_SHA256），服务器使用设备预先知晓的静态密钥完成握手，仅 0.3 秒、100 字节即可完成，RAM 降至 9.4 KB。该方案满足了识别真实服务器、加密凭据、防重放和篡改等需求。但文章未讨论 NK 模式缺乏前向保密性、静态密钥泄露后的风险，也未解释为何不选提供前向保密的 NN 模式；评论区有读者建议用 TOTP 或公钥对作为替代方案。
+
+**「启示」** 对仅需连接单一服务器的嵌入式设备，Noise 协议能以极低资源开销替代 TLS，但工程决策需权衡静态密钥管理带来的安全代价。
+
+**标签**: `#embedded-security`, `#noise-protocol`, `#esp32`, `#tls-alternatives`, `#resource-constrained-devices`
+
+---
+
+---
+
+<h2 class="batch-heading">🕐 07:00 雷达更新</h2>
 
 > 从 22 条内容中筛选出 5 条重要资讯。
 
